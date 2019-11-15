@@ -28,10 +28,26 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   components: {
     AppLogo
+  },
+  data() {
+    return {
+      testValue: ''
+    }
+  },
+  methods: {
+    test() {
+      // eslint-disable-next-line no-undef
+      // eslint-disable-next-line eqeqeq
+      // eslint-disable-next-line no-empty
+      // eslint-disable-next-line eqeqeq
+      // eslint-disable-next-line no-empty
+      if (this.testValue === '') {
+
+      }
+    }
   }
 }
 </script>
-
 <style>
 .container {
   min-height: 100vh;
